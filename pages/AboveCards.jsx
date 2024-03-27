@@ -13,8 +13,8 @@ const AboveCards = ({currentTheme}) => {
   return (
     <>
     <div className='mb-15 grid grid-cols-4 '>
-      {products.slice(0, startIndex + 4).map((product, index) => (
-        <A_cards key={index} product={product} index={index} currentTheme={currentTheme} />
+      {products.slice(0, startIndex + 4).map((product) => (
+        <A_cards product={product} currentTheme={currentTheme} />
         ))}
     </div>
       {startIndex < products.length && (
