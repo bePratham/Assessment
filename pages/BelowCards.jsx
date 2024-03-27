@@ -37,7 +37,7 @@ const BelowCards = ({currentTheme}) => {
         </p>
       </div>
       <div className="flex justify-between">
-        <button className="prev" onClick={prevSlide}>
+        <button onClick={prevSlide}>
           {" "}
           <Image src={prev} />{" "}
         </button>

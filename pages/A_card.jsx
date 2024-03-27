@@ -2,7 +2,7 @@ import React from "react";
 import data from "../data.json";
 const A_cards = ({ index, product ,currentTheme }) => {
   return (
-    <div className={`flex flex-col  w-72 p-4 ${currentTheme === 'dark'? 'bg-gray-700' : 'bg-white custom-shadow'}`}>
+    <div className={`flex flex-col  w-72 p-4 mt-4 ${currentTheme === 'dark'? 'bg-gray-700' : 'bg-white custom-shadow'}`}>
       <img
         src={product.image_link}
         alt=""
