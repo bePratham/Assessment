@@ -1,7 +1,7 @@
 import React from 'react';
 import data from '../data.json'
 const TicketCard = ({product,currentTheme}) => {
-    if (!product || !product.image_link) {
+    if (!product || !product.thumbnail) {
         return <div>Error: Product data is missing or incomplete</div>;
       }
      return (
