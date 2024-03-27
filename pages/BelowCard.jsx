@@ -2,7 +2,7 @@ import React from 'react';
 import data from '../data.json'
 const TicketCard = ({index,product,currentTheme}) => {
      return (
-    <div className={`flex flex-col w-80  p-4 mt-7  ${currentTheme.currentTheme === 'dark'? 'bg-slate-500 ':'custom-shadow '}`}>
+    <div className={`flex flex-col w-80  p-4 mt-7  ${currentTheme === 'dark'? 'bg-slate-500 ':'custom-shadow '}`}>
             <img src={product.thumbnail} alt="" style={{ height: '450px' }} />
             <div className='text-center m-3'>
                 <p >- - - - - - - - - - - - - - - - - - - - -    

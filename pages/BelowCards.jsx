@@ -27,7 +27,7 @@ const BelowCards = ({currentTheme}) => {
   };
 
   return (
-    <div className={`flex flex-col justify-center items-center p-9 px-11 ${currentTheme.currentTheme === 'dark'?'bg-gradient-to-b from-green-900 to-indigo-900 h-full':'bg-white'}`}>
+    <div className={`flex flex-col justify-center items-center p-9 px-11 ${currentTheme === 'dark'?'bg-gradient-to-b from-green-900 to-indigo-900 h-full':'bg-white'}`}>
       <div className="px-10 text-center">
         <h1 className="text-4xl mb-4">Collections Spotlight</h1>
         <p className="text-center">
